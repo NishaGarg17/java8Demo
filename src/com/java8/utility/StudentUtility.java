@@ -13,6 +13,7 @@ public class StudentUtility {
 		studentList.add(new Student("Nisha",21));
 		studentList.add(new Student("Manisha",22));
 		studentList.add(new Student("Manpreet Kaur",20));
+		studentList.add(new Student("Ravi",20));
 		return studentList;
 	}
 	public static void printStudentList() {
