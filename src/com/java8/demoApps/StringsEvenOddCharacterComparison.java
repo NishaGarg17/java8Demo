@@ -44,21 +44,19 @@ public class StringsEvenOddCharacterComparison {
 					isRepitiveChar = true;
 				}
 			}
-			System.out.println("Current char count for: " + str1.charAt(i) + " is " + currentCharCount);
+			//System.out.println("Current char count for: " + str1.charAt(i) + " is " + currentCharCount);
 			if(isRepitiveChar == false) {
 				for(int j=0; j< str2.length(); j=j+2) {
 					if(str1.charAt(i) == str2.charAt(j)) {
-						System.out.println("Match Found for character: " + str1.charAt(i));
+						//System.out.println("Match Found for character: " + str1.charAt(i));
 						count++;
 					}
 					
 				}
 			}
-			if (count > 0) {
+			if (isRepitiveChar == false) {
 				System.out.println(str1.charAt(i) + " even char of " + str1  + " matched " + count*currentCharCount + " times with odd chars of String " + str2 );
-			} else {
-				System.out.println("Sorry No Match for " + str1.charAt(i));
-			}
+			} 
 		}
 	}
 
