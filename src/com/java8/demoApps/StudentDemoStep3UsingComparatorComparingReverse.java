@@ -14,7 +14,7 @@ public class StudentDemoStep3UsingComparatorComparingReverse {
 		System.out.println("Student List is: ");
 		StudentUtility.printStudentList();
 		Collections.sort(studentList, Comparator.comparing((Student s) -> s.getFirstName()).reversed());
-		System.out.println("StudentList sorted by first name: ");
+		System.out.println("StudentList sorted by first name in descending order is: ");
 		StudentUtility.printStudentList();
 	}
 
