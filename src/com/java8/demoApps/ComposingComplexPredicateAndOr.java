@@ -28,8 +28,8 @@ public class ComposingComplexPredicateAndOr {
 		System.out.println("\nGreen AppleList is: ");
 		AppleUtility.printAppleList(filterApples(appleList, apple -> apple.getColor().equalsIgnoreCase("Green")));
 		
-		// print AppleList which are red or green and having weight >= 100 
-		System.out.println("\nAppleList which are red or green and having weight >= 100 ");
+		// print AppleList which are red and having weight >= 100 or green
+		System.out.println("\nAppleList which are red and having weight >= 100 or green: ");
 		AppleUtility.printAppleList(filterApples(appleList, redApplePredicate.and(apple -> apple.getWeight() >= 100)
 		.or(apple -> apple.getColor().equalsIgnoreCase("green"))));
 	}
