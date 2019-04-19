@@ -21,7 +21,7 @@ public class ComposingComplexPredicateAndOr {
 		AppleUtility.printAppleList(redAppleList);
 		
 		// print AppleList having weight greater than or equal to 100
-		System.out.println("\nAppleList having weight greater than or equal to 100: ");
+		System.out.println("\nAppleList having weight greater than or equal to 100 is: ");
 		AppleUtility.printAppleList(filterApples(appleList, apple -> apple.getWeight() >= 100));
 		
 		// print Green AppleList
