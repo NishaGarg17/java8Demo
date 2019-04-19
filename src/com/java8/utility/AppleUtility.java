@@ -11,6 +11,7 @@ public class AppleUtility {
 		appleList.add(new Apple("Green",50));
 		appleList.add(new Apple("Red",25));
 		appleList.add(new Apple("Red",100));
+		appleList.add(new Apple("Red",90));
 		appleList.add(new Apple("Golden",100));
 		return appleList;
 		
